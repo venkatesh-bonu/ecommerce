@@ -1,0 +1,94 @@
+.cart-container {
+  display: flex;
+  justify-content: center;
+  min-height: 75vh;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-container {
+    min-height: 90vh;
+  }
+}
+
+.cart-content-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 1110px;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-content-container {
+    width: 80%;
+    max-width: 1110px;
+  }
+}
+
+.cart-heading {
+  color: #3e4c59;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-heading {
+    font-size: 48px;
+  }
+}
+
+/* Write your CSS here */
+.remove-all-section {
+  text-align: right;
+}
+.remove-all-btn {
+  background-color: transparent;
+  color: blue;
+  font-family: 'roboto';
+  font-size: 14px;
+  font-weight: 600;
+  border: 0px;
+}
+@media (min-width: 768px) {
+  .remove-all-btn {
+    font-size: 18px;
+  }
+}
+.order-total {
+  width: 100%;
+  align-self: end;
+  padding-top: 30px;
+  margin-bottom: 20px;
+}
+@media (min-width: 768px) {
+  .order-total {
+    width: 300px;
+    padding-top: 50px;
+  }
+}
+
+.total-amount-in-cart {
+  color: #616e7c;
+  font-size: 25px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+.total-amount-number {
+  color: #171f46;
+  font-size: 27px;
+}
+.items-in-cart {
+  margin-top: 0px;
+  color: #616e7c;
+  font-size: 18px;
+  font-weight: 400;
+}
+.checkout-btn {
+  width: 100%;
+  background-color: #0b69ff;
+  border: 0px;
+  border-radius: 4px;
+  color: white;
+  font-size: 15px;
+  padding: 10px;
+}
